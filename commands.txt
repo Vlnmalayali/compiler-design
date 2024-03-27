@@ -1,0 +1,9 @@
+┌──(vishnu㉿Vishnu)-[~/Desktop/compiler_design/lex]
+└─$ flex textno.l             
+                                                                                                                         
+┌──(vishnu㉿Vishnu)-[~/Desktop/compiler_design/lex]
+└─$ gcc lex.yy.c -o lexer -lfl
+                                                                                                                         
+┌──(vishnu㉿Vishnu)-[~/Desktop/compiler_design/lex]
+└─$ ./lexer < textnoinput.txt 
+
